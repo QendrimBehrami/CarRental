@@ -3,6 +3,8 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 
+import audiA8Image from "@/assets/audi-a8.png";
+
 const HeroSection: React.FC = () => {
   return (
     <div className="hero bg-base-200 flex items-center justify-center p-4">
@@ -30,7 +32,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div>
           <img
-            src="public/audi-a8.png"
+            src={audiA8Image}
             alt="hero"
             className="rounded-box max-w-sm md:max-w-md lg:w-auto"
           />
