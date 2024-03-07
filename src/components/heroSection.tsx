@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div>
           <img
-            src="../assets/audi-a8.png"
+            src="public/audi-a8.png"
             alt="hero"
             className="rounded-box max-w-sm md:max-w-md lg:w-auto"
           />
