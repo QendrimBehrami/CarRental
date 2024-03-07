@@ -66,6 +66,10 @@
   }
 }
 
+body {
+  font-size: 1.2rem;
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -79,6 +83,6 @@ h1 {
   @apply mb-5 text-5xl font-bold tracking-tight;
 }
 
-.section {
-  @apply flex flex-col lg:flex-row items-center justify-center gap-10;
+.aligned {
+  @apply lg:w-[900px] mx-auto p-4;
 }

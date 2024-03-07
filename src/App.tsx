@@ -4,11 +4,13 @@ import Header from "./header";
 
 function App() {
   return (
-    <div className="flex justify-center flex-col gap-32">
-      <Header></Header>
-      <HeroSection></HeroSection>
-      <Booking></Booking>
-    </div>
+    <>
+      <div className="grid grid-cols-1 gap-40">
+        <Header></Header>
+        <HeroSection></HeroSection>
+        <Booking></Booking>
+      </div>
+    </>
   );
 }
 

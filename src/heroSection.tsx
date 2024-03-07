@@ -7,9 +7,10 @@ import audiA8Image from "@/assets/audi-a8.png";
 
 const HeroSection: React.FC = () => {
   return (
-    <div className="section">
-      <div className="max-w-md text-center lg:text-left leading-normal">
+    <div className="lg:flex lg:flex-row py-8 aligned">
+      <div className="max-w-md text-center lg:text-left mb-20">
         <h1>Welcome to CarRental</h1>
+
         <p className="mb-5 text-slate-800">
           Providing you with the best rental experience, anywhere, anytime.
         </p>
