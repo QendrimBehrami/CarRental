@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./button";
+import { Button } from "./components/ui/button";
 import { CarFront } from "lucide-react";
 
 const Header: React.FC = () => {

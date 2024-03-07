@@ -1,5 +1,5 @@
 import { Car } from "lucide-react";
-import Selection from "./selection";
+import Selection from "./components/ui/selection";
 
 const Booking: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
-import HeroSection from "./components/heroSection";
-import Booking from "./components/ui/booking";
-import Header from "./components/ui/header";
+import HeroSection from "./heroSection";
+import Booking from "./booking";
+import Header from "./header";
 
 function App() {
   return (
